@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  scroll-behavior: smooth;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  height: 30vh;
+  color: rgb(90, 89, 112);
+  height: 30vh;
+  background-color: rgb(245, 245, 245);
+}
+h1 {
+  color: rgb(255, 255, 255);
+}
+.p1 {
+  margin-top: 2rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+h2 {
+  margin-top: 2rem;
+}
+#accueil {
+  background-color: rgb(68, 84, 88);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.liens {
+  margin: auto;
+  display: flex;
+  list-style-type: none;
+}
+.navbar {
+  margin-bottom: 92vh;
+  padding-top: 2vh;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: none;
+  height: 9vh;
+  position: fixed;
+  transition: all 0.3s ease-in-out;
+}
+.navi {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  margin: 10px;
+  text-decoration: none;
+}
+.navbar:hover {
+  opacity: initial;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background: rgb(68, 84, 88);
+  height: 9%;
+  position: fixed;
+}
+.navi:hover {
+  color: rgb(155, 155, 155);
+  font-size: 25px;
+  margin: 10px;
+  text-decoration: none;
+}
+#about {
+  display: flex;
+  height: 100vh;
+  width: 35%;
+  flex-direction: column;
+  margin: auto;
+  line-height: 180%;
+}
+#xp {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+#skills {
+  height: 100vh;
+}
+#projets {
+  height: 100vh;
+}
+#contact {
+  height: 100vh;
+}
