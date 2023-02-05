@@ -111,21 +111,47 @@ h2 {
   height: 100vh;
   display: grid;
   grid-template-columns: 30% 40% 30%;
-  grid-template-rows: 20% 30% 30% 20%;
+  grid-template-rows: 12.5% 25% 25% 25% 12.5%;
+}
+#diplomes{
+  grid-row: 2;
+  grid-column: 2;
 }
 #hs{
-  grid-row:2;
+  grid-row:3;
   grid-column: 2;
   margin: 2;
 }
 #soft{
-  grid-row: 3;
+  grid-row: 4;
   grid-column: 2;
   margin: auto;
 }
 #projets {
   height: 100vh;
 }
+#proimg{
+  height:100%;
+  width:100%;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 12.5% 25% 25% 25% 12.5%;
+}
+#proimg img{
+  width:22%;
+  height:22%;
+  margin-left:2%;
+  margin-top:2%;
+  border-radius: 4%;
+  box-shadow: 0px 0px 15px black;
+}
+#proimg img:hover{
+  width:23%;
+  height:23%;
+  margin-right:-1%;
+  margin-top: -2%;
+  margin-bottom: -1%;
+}
+
 #contact {
   height: 100vh;
 }

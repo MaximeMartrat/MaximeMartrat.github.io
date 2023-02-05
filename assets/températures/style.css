@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    text-align: center;
+    line-height: 110px;
+    background-image: url("meteo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition-duration: 0.5s;
+    transition-property: display, background-image;
+}
+#box{
+    background-color: rgb(159, 185, 171);
+    opacity: 0.80;
+    height: 350px;
+    width: 380px;
+    box-shadow: 0px 0px 20px black;
+    margin: auto;
+    border-radius: 10px;
+}
+h1{
+    margin-top: 20rem;
+    font-size: 50px;
+}
+label{
+    font-size: 25px;
+}
+input, select{
+    font-size: 15px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 5px;
+}
+button{
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    margin-top: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    border: 2px solid black;
+    width: 400px;
+    background-color: black;
+    border-radius: 15px;
+    opacity: 80%;
+}
+#return{
+    display: none;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 120px;
+    opacity: 70%;
+    background-color: black;
+    color: white;
+}
+#return:hover{
+    opacity: 100%;
+}
