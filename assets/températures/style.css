@@ -3,27 +3,30 @@
     margin: 0;
 }
 body{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 30% 40% 30%;
     height: 100vh;
     text-align: center;
     line-height: 110px;
-    background-image: url("meteo.png");
+    background-image: url("meteo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     transition-duration: 0.5s;
-    transition-property: display, background-image;
 }
 #box{
-    background-color: rgb(159, 185, 171);
-    opacity: 0.80;
+    grid-row: 2;
+    grid-column: 2;
+    background-color: rgba(127, 127, 185, 0.383);
     height: 350px;
     width: 380px;
-    box-shadow: 0px 0px 20px black;
     margin: auto;
+    box-shadow: 0px 0px 20px black;
     border-radius: 10px;
 }
 h1{
-    margin-top: 20rem;
     font-size: 50px;
+    color:rgb(37, 28, 101)
 }
 label{
     font-size: 25px;
@@ -33,20 +36,22 @@ input, select{
     padding: 10px 5px 10px 5px;
     border-radius: 5px;
 }
+#box_result{
+    grid-row: 2;
+    grid-column: 2;
+    margin: auto;
+}
 button{
     font-size: 20px;
     padding: 5px 20px 5px 20px;
     border-radius: 5px;
 }
 h2{
+    display: none;
     text-align: center;
-    margin-top: 400px;
-    margin-left: auto;
-    margin-right: auto;
     font-size: 50px;
-    border: 2px solid black;
     width: 400px;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.705);
     border-radius: 15px;
     opacity: 80%;
 }
@@ -57,10 +62,11 @@ h2{
     margin-right: auto;
     height: 50px;
     width: 120px;
-    opacity: 70%;
-    background-color: black;
-    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.313);
+    background-color: rgba(0, 0, 0, 0.544);
+    color: rgb(197, 197, 197);
 }
 #return:hover{
-    opacity: 100%;
+    background-color: rgba(0, 0, 0, 0.821);
+    color: white;
 }

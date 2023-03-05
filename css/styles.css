@@ -12,6 +12,11 @@ body {
   height: 30vh;
   background-color: rgb(245, 245, 245);
 }
+#profil{
+  height:200px;
+  width: 210px;
+  border-radius: 100%;
+}
 h1 {
   color: rgb(255, 255, 255);
 }
@@ -129,14 +134,22 @@ h2 {
 }
 #projets {
   height: 100vh;
+  display: grid;
+  grid-template-rows: 5% 30% 30% 30% 5%;
 }
 #proimg{
-  height:100%;
+  grid-row: 2;
+  height:350%;
   width:100%;
-  grid-template-columns: 25% 25% 25% 25%;
-  grid-template-rows: 12.5% 25% 25% 25% 12.5%;
 }
-#proimg img{
+
+#proimg2{
+  grid-row: 3;
+  height: 350%;
+  width: 100%;
+}
+
+#proimg img, #proimg2 img{
   width:22%;
   height:22%;
   margin-left:2%;
@@ -149,6 +162,14 @@ h2 {
   height:23%;
   margin-right:-1%;
   margin-top: -2%;
+  margin-bottom: -1%;
+}
+
+#proimg2 img:hover{
+  width:23%;
+  height:23%;
+  margin-right:-1%;
+  margin-top: 1%;
   margin-bottom: -1%;
 }
 
